@@ -9,7 +9,9 @@ def mimic(message: str) -> str:
     return message
 
 
-print(mimic(message=input("What is your message?")))
+# Have to define main -- same as mimic
+def main() -> None:
+    print(mimic(message=input("What is your message?")))
 
 
 if __name__ == "__main__":
