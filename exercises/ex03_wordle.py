@@ -67,4 +67,4 @@ def main(secret: str) -> None:
 
 
 if __name__ == "__main__":
-    main(secret="codes")  # codes is the word they are trying to guess
+    main(secret="penis")  # codes is the word they are trying to guess
